@@ -1,11 +1,11 @@
-# MyCar SerVices
+# CarBd.Com
 ### online car selling and servicing website
 
-Netlify live deploy link of project [Create React App] (https://youthful-colden-0f2d41.netlify.app/).
+Netlify live deploy link of project [Create React App] (https://carbdwebapp.netlify.app).
 
 ## Project Name
 
-Car Selling Website (Mycar Services)
+Car Selling Website (CarBd.Com)
 
 ### Project Details
 
