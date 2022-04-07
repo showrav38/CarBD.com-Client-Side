@@ -29,7 +29,7 @@ import Footer from './components/Footer/Footer';
 function App() {
   return (
     <>
-    
+    {/* All Router */}
       <AuthProvider>
         <Router>
           <Header></Header>
