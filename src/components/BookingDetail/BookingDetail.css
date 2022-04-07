@@ -1,0 +1,23 @@
+/* .resPaddN{
+   margin: auto;
+  
+} */
+
+@media only screen and (max-width: 600px) {
+  .resize {
+    height: 200px !important;
+    width: 250px !important;
+    margin-top: 30px;
+  }
+}
+
+.geeks2 {
+  overflow: hidden;
+}
+.geeks2 {
+  transition: 0.5s all ease-in-out;
+}
+
+.geeks2:hover {
+  transform: scale(1.05);
+}

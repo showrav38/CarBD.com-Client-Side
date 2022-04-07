@@ -1,0 +1,109 @@
+/* .header{
+    padding: 20px;
+    background-color:#212529;
+}
+#textMain{
+    color:rgb(245, 149, 84);
+  }
+  .textExtra{
+      color:white;
+  }
+
+  .service-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr)};
+
+    */
+
+.navbar {
+  background-color: aliceblue !important;
+}
+
+.navbar-brand {
+  font-size: 1.9rem !important;
+  color: #565387 !important;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgb(77, 161, 235);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+/* .navbar-light .navbar-nav .nav-link {
+        color: rgba(0, 0, 0, 0.55) !important;
+      } */
+/* .menu_active {
+        color: rgba(0, 0, 0, 0.55) !important;
+        font-weight: bold;
+        border-bottom: 1px solid #565387;
+      } */
+.nav-link.active {
+  color: rgba(0, 0, 0, 0.55) !important;
+}
+/* .navbar-light .navbar-nav .nav-link:focus,
+      .navbar-light .navbar-nav .nav-link:hover {
+        color: rgba(0, 0, 0, 0.55) !important;
+      }
+       */
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+  color: black !important;
+  padding-bottom: 2px;
+}
+/* .test1:active {
+        color: rgba(0, 0, 0, 0.55) !important;
+      }
+      .test1:focus {
+        color: rgba(0, 0, 0, 0.55) !important;
+      }
+      .test1:hover {
+        color: rgba(0, 0, 0, 0.55) !important;
+      }
+       */
+.navbar a {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+.nav-link {
+  text-align: right !important;
+}
+
+.navbar a:hover {
+  color: #3498db !important;
+}
+
+@media (max-width: 991px) {
+  .navbar-brand {
+    font-size: 1.9rem !important;
+  }
+  .menu_active {
+    font-weight: bold;
+    border-bottom: none;
+  }
+}
+@media (max-width: 600px) {
+  .navbar-brand {
+    font-size: 1.5rem !important;
+    color: #565387 !important;
+  }
+  .navbar-toggler-icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+  }
+}
+
+.test12 {
+  position: sticky !important;
+  top: 0px !important;
+  z-index: 9999 !important;
+}
+
+.nav-item{
+  margin-left: 5px;
+}

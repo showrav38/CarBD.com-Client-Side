@@ -1,0 +1,102 @@
+[
+    {
+        "img": "https://i.ibb.co/6PWNvQp/1.jpg",
+        "name": "Audi TT RS",
+        "price": "$850000",
+        "madeIn": "USA",
+        "milage": "300",
+        "mode": "Automatic",
+        "released": "2010",
+        "description": "One of the finest Car"
+    },
+    {
+        "img": "https://i.ibb.co/VNn6DqR/2.jpg",
+        "name": "Mazda CX-5 SX, Sunroof",
+        "price": "$950000",
+        "madeIn": "Germany",
+        "milage": "320",
+        "mode": "Manual",
+        "released": "2017",
+        "description": "Best out of best"
+    },
+    {
+        "img": "https://i.ibb.co/GMLxDWf/3.jpg",
+        "name": "BMW 535 v6",
+        "price": "$700000",
+        "madeIn": "Russia",
+        "milage": "380",
+        "mode": "Automatic",
+        "released": "2010",
+        "description": "Best Old antique model of Russia "
+    },
+    {
+        "img": "https://i.ibb.co/8sXVM9V/6.jpg",
+        "name": "Range Rover",
+        "price": "$900000",
+        "madeIn": "Russia",
+        "milage": "330",
+        "mode": "Automatic",
+        "released": "2016",
+        "description": "Best One"
+    },
+    {
+        "img": "https://i.ibb.co/R0kSc3g/4.jpg",
+        "name": "BMW 535i",
+        "price": "$800000",
+        "madeIn": "Mexico",
+        "milage": "290",
+        "mode": "Manual",
+        "released": "2017",
+        "description": "Best award champ"
+    },
+    {
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHwEsJs2PNNuO3q1YXta1Sl-1FFKggZEGkqnn6knwdWCoI0qCG5p6yfoHWwa269z_g4Ag&usqp=CAU",
+        "name": "Maserati",
+        "price": "$100000",
+        "madeIn": "China",
+        "milage": "350",
+        "mode": "Automatic",
+        "released": "2010",
+        "description": "Everyone Favourite for racing"
+    },
+    {
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzDClnE4eV7tIIUhaPekLhZ1sjC9Foim7ysWkYmGRHZFiEeO6nakDM52nGcgigJnz7Fy4&usqp=CAU",
+        "name": "BMW M4",
+        "price": "$1500000",
+        "madeIn": "USA",
+        "milage": "350",
+        "mode": "Automatic",
+        "released": "2010",
+        "description": "Experts first priority"
+    },
+    {
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNPyEdFx1ktOCVwoNY3phZDoQLVO92E2MTXEqPPieE__iov0qoehCPtnY3gVTHsoUtK-o&usqp=CAU",
+        "name": "New JR",
+        "price": "$100,000",
+        "madeIn": "Japan",
+        "milage": "400",
+        "mode": "Automatic",
+        "released": "2013",
+        "description": "Life time Best interior with attractive vision"
+    },
+    {
+        "img": "https://media.istockphoto.com/photos/illustration-of-generic-red-car-front-view-picture-id1145720458?k=20&m=1145720458&s=612x612&w=0&h=51ooOfUOao-3k9MJdmqsoEITBgdMQjdEdG35sczCgJs=",
+        "name": "Maserati",
+        "price": "$990000",
+        "madeIn": "Spain",
+        "milage": "450",
+        "mode": "Automatic",
+        "released": "2016",
+        "description": "Attractive Outlook which can make everyone convince to buy "
+    },
+    {
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6bBBnT6tOP_zQL1psC-3u7KoDkuI5TnA0Pw&usqp=CAU",
+        "name": "Maserati",
+        "price": "$8800000",
+        "madeIn": "Spain",
+        "milage": "350",
+        "mode": "Automatic",
+        "released": "2017",
+        "description": "Best Visuals with attractive intrigrity"
+    }
+]

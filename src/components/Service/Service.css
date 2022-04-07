@@ -1,0 +1,28 @@
+.service {
+  background-color: rgb(226, 241, 241);
+  border-radius: 20px;
+}
+.service img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 688px) {
+  .resPadd {
+    padding: 0px;
+  }
+}
+@media only screen and (min-width: 689px) and (max-width: 991px) {
+  .resPadd {
+    padding: 0px;
+  }
+}
+.geeks {
+  overflow: hidden;
+}
+.geeks img {
+  transition: 0.7s all ease-in-out;
+}
+
+.geeks:hover img {
+  transform: scale(1.3);
+}

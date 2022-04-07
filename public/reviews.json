@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "reviewbuyer": "Best Site",
+        "rating": 3
+    },
+    {
+        "id": 2,
+        "reviewbuyer": "Yahooooooooo",
+        "rating": 3.5
+    },
+    {
+        "id": 3,
+        "reviewbuyer": "loooooooooooo",
+        "rating": 4
+    },
+    {
+        "id": 4,
+        "reviewbuyer": "llalalaallalalla",
+        "rating": 4.5
+    },
+    {
+        "id": 5,
+        "reviewbuyer": "yallah",
+        "rating": 4.8
+    },
+    {
+        "id": 6,
+        "reviewbuyer": "outstanding",
+        "rating": 4
+    }
+]

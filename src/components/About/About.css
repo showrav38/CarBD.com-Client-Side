@@ -1,0 +1,124 @@
+/* .text-C{
+    color:rgb(247, 109, 11);
+    padding-top: 10px;
+}
+
+.textP{
+    margin:10px;
+    padding-left: 30px;
+    font-size: larger;
+color:rgb(41, 40, 40)
+}
+@media only screen and (max-width:688px) {
+   iframe{
+       width:auto;
+   }
+}
+@media only screen and (min-width:689px) and (max-width: 991px){
+    iframe{
+        width:auto;
+    }
+    .textP{
+        align-items: center;
+    }
+} */
+
+.section-margin {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.section {
+  float: left;
+  width: 100%;
+}
+.m-b-n30 {
+  margin-bottom: -30px;
+}
+.service-layer-image {
+  position: relative;
+  height: 577px;
+}
+
+.about-image {
+  max-width: 530px;
+}
+.service-layer-image .about-image-1 {
+  -webkit-box-shadow: #959ea5 0px 0px 41px;
+  box-shadow: #959ea5 0px 0px 41px;
+  border-radius: 50px;
+}
+.service-layer-image .about-image-2 {
+  position: absolute;
+  right: 0px;
+  top: 255px;
+}
+.mw-100 {
+  max-width: 100% !important;
+}
+
+.about-content span {
+  position: relative;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  display: block;
+}
+/* p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #8a8a8a;
+  line-height: 2;
+} */
+
+.m-b-30 {
+  margin-bottom: 30px;
+}
+
+.section-heading {
+  margin-bottom: 50px;
+}
+.section-heading h5 {
+  color: #f56960;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 22px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.section-heading h2 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.title-icon-divider {
+  color: #0791be;
+  line-height: 1;
+  position: relative;
+  margin-top: 25px;
+  display: flex;
+}
+.title-icon-divider:before,
+.title-icon-divider:after {
+  content: '....';
+  display: inline-block;
+  font-size: 37px;
+  line-height: 0;
+  letter-spacing: 3px;
+}
+.title-icon-divider [class*='fa-'] {
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.title-icon-divider ~ p {
+  margin-top: 30px;
+}
+@media only screen and (min-width: 688px) {
+  .pc {
+    margin-left: 34px;
+  }
+}

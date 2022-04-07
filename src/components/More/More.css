@@ -1,0 +1,28 @@
+.margin{
+    background-color:  #EAFAF1;
+}
+.container {
+    position: relative;
+    text-align: center;
+    /* color: white; */
+  }
+  
+
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /* img {
+    opacity: .80;
+  } */
+
+  @media only screen and (max-width:688px) {
+    .paddingImg{
+     padding-right:120px;
+       
+       
+    }
+}
