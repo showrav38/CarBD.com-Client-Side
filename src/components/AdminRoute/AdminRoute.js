@@ -14,7 +14,7 @@ const AdminRoute = props => {
   useEffect(() => {
     if (user) {
       setIsLoading(true);
-      fetch(`http://localhost:3005/users/${user.email}`)
+      fetch(`https://calm-anchorage-33077.herokuapp.com/users/${user.email}`)
         .then(res => res.json())
         .then(data => {
           localStorage.setItem('userDetails', JSON.stringify(data));
@@ -40,7 +40,7 @@ const AdminRoute = props => {
         ) : (
           <Redirect
             to={{
-              pathname: '/',
+              pathname: '/dashboard',
               state: { from: location },
             }}
           ></Redirect>
