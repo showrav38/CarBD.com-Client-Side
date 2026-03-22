@@ -20,7 +20,7 @@ const ProductDetail = props => {
         </div>
         <div class="card-body">
           <h4 class="card-title">{name}</h4>
-          <h5 class="card-title">Price: {price}Tk</h5>
+          <h5 class="card-title">Price: {Number(price).toLocaleString()} Tk</h5>
           <p class="card-text">{description}</p>
           <Link to={url}>
             <button  class="btn btn-primary">Purchase</button>
