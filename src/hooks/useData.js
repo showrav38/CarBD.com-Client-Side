@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 const useData = () => {
     const [services, setServices] = useState([])
     useEffect(() => {
-        fetch('https://calm-anchorage-33077.herokuapp.com/services')
+        fetch('http://localhost:5000/services')
             .then(res => res.json())
             .then(data => setServices(data))
     }, []);

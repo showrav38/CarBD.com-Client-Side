@@ -25,7 +25,7 @@ const UserReview = () => {
     newUser.userReview = review;
     newUser.userRating = rating;
     newUser.profilePic = img;
-    fetch('https://calm-anchorage-33077.herokuapp.com/reviews', {
+    fetch('http://localhost:5000/reviews', {
       method: 'POST',
       headers: {
         'content-type': 'application/json',

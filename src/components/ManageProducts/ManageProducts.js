@@ -8,7 +8,7 @@ const ManageProducts = () => {
     const [myProduct, setMyProduct] = useState([]);
 
     useEffect(() => {
-        const url = 'https://calm-anchorage-33077.herokuapp.com/services';
+        const url = 'http://localhost:5000/services';
         fetch(url)
             .then(res => res.json())
             .then(data => {
@@ -21,7 +21,7 @@ const ManageProducts = () => {
         const proceed = window.confirm('Are you sure, you want to delete?')
         console.log(id);
         if (proceed) {
-            const url = `https://calm-anchorage-33077.herokuapp.com/services/${id}`;
+            const url = `http://localhost:5000/services/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })

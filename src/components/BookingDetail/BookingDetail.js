@@ -41,7 +41,7 @@ const BookingDetail = props => {
     const contact = contactRef.current.value;
     newUser.userAddress = address;
     newUser.userContact = contact;
-    fetch('https://calm-anchorage-33077.herokuapp.com/orders', {
+    fetch('http://localhost:5000/orders', {
       method: 'POST',
       headers: {
         'content-type': 'application/json',

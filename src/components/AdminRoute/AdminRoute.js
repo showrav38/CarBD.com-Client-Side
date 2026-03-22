@@ -14,7 +14,7 @@ const AdminRoute = props => {
   useEffect(() => {
     if (user) {
       setIsLoading(true);
-      fetch(`https://calm-anchorage-33077.herokuapp.com/users/${user.email}`)
+      fetch(`http://localhost:5000/users/${user.email}`)
         .then(res => res.json())
         .then(data => {
           localStorage.setItem('userDetails', JSON.stringify(data));

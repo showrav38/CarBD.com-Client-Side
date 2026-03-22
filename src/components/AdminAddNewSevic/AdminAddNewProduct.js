@@ -22,7 +22,7 @@ const AdminAddNewProduct = () => {
         const mode = modeRef.current.value;
 
         const newService = { name, img, description, madeIn, milage, price, released, mode };
-        fetch('https://calm-anchorage-33077.herokuapp.com/services', {
+        fetch('http://localhost:5000/services', {
             method: 'post',
             headers: {
                 'content-type': 'application/json'

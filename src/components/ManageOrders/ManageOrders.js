@@ -17,7 +17,7 @@ const ManageOrders = () => {
   // const history = useHistory();
 
   useEffect(() => {
-    const url = 'https://calm-anchorage-33077.herokuapp.com/orders';
+    const url = 'http://localhost:5000/orders';
     fetch(url)
       .then(res => res.json())
       .then(data => {
@@ -30,7 +30,7 @@ const ManageOrders = () => {
     const proceed = window.confirm('Are you sure, you want to delete?');
     console.log(id);
     if (proceed) {
-      const url = `https://calm-anchorage-33077.herokuapp.com/orders/${id}`;
+      const url = `http://localhost:5000/orders/${id}`;
       fetch(url, {
         method: 'DELETE',
       }).then(res =>
@@ -48,7 +48,7 @@ const ManageOrders = () => {
     const proceed = window.confirm('Are you sure, you want to approve?');
     console.log(id);
     if (proceed) {
-      const url = `https://calm-anchorage-33077.herokuapp.com/orders/${id}`;
+      const url = `http://localhost:5000/orders/${id}`;
       fetch(url, {
         method: 'PUT',
         headers: {

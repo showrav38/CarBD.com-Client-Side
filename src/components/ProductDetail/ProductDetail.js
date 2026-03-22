@@ -9,7 +9,7 @@ const ProductDetail = props => {
   const url = `/booking/${_id}`;
   return (
     <div className="col-md-4 col-10">
-      <div class="card" style={{ boxShadow: '5px 5px 10px rgb(0,0,0,.25)', height: '500px' }}>
+      <div class="card" style={{ boxShadow: '5px 5px 10px rgb(0,0,0,.25)', paddingBottom: '15px' }}>
         <div className="geeks">
           <img
             style={{ height: '250px', borderBottom: '4px solid #1da6bb' }}
@@ -22,7 +22,7 @@ const ProductDetail = props => {
           <h4 class="card-title">{name}</h4>
           <h5 class="card-title">Price: {price}Tk</h5>
           <p class="card-text">{description}</p>
-          <Link to={url} style={{ position: 'relative',top:'50px' }} >
+          <Link to={url}>
             <button  class="btn btn-primary">Purchase</button>
           </Link>
         </div>

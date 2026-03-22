@@ -17,7 +17,7 @@
   }
 }
 .geeks {
-  overflow: hidden;
+  overflow: visible;
 }
 .geeks img {
   transition: 0.7s all ease-in-out;
