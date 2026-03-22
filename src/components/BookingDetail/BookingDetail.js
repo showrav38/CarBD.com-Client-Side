@@ -80,7 +80,7 @@ const BookingDetail = props => {
                   alt=""
                 />
                 <h4 className="text-right mt-3">Name: {name}</h4>
-                <h5 className="text-right mt-1">Price: {price}</h5>
+                <h5 className="text-right mt-1">{Number(price).toLocaleString()} Tk</h5>
                 <p>{description}</p>
               </div>
               <div className="col-md-6 ">
