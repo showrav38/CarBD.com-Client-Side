@@ -11,7 +11,7 @@ const MyOrders = () => {
     const [myOrder, setMyOrder] = useState([]);
 
     useEffect(() => {
-        const url = `http://localhost:5000/orders/${uid}`;
+        const url = `https://carbd-server.onrender.com/orders/${uid}`;
         fetch(url)
             .then(res => res.json())
             .then(data => {
@@ -24,7 +24,7 @@ const MyOrders = () => {
         const proceed = window.confirm('Are you sure, you want to delete?')
         console.log(id);
         if (proceed) {
-            const url = `http://localhost:5000/orders/${id}`;
+            const url = `https://carbd-server.onrender.com/orders/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })

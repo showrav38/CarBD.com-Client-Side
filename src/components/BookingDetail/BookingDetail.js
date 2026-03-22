@@ -41,7 +41,7 @@ const BookingDetail = props => {
     const contact = contactRef.current.value;
     newUser.userAddress = address;
     newUser.userContact = contact;
-    fetch('http://localhost:5000/orders', {
+    fetch('https://carbd-server.onrender.com/orders', {
       method: 'POST',
       headers: {
         'content-type': 'application/json',

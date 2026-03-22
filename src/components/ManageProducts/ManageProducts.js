@@ -8,7 +8,7 @@ const ManageProducts = () => {
     const [myProduct, setMyProduct] = useState([]);
 
     useEffect(() => {
-        const url = 'http://localhost:5000/services';
+        const url = 'https://carbd-server.onrender.com/services';
         fetch(url)
             .then(res => res.json())
             .then(data => {
@@ -21,7 +21,7 @@ const ManageProducts = () => {
         const proceed = window.confirm('Are you sure, you want to delete?')
         console.log(id);
         if (proceed) {
-            const url = `http://localhost:5000/services/${id}`;
+            const url = `https://carbd-server.onrender.com/services/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })

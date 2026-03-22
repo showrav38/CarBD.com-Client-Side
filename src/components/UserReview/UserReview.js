@@ -25,7 +25,7 @@ const UserReview = () => {
     newUser.userReview = review;
     newUser.userRating = rating;
     newUser.profilePic = img;
-    fetch('http://localhost:5000/reviews', {
+    fetch('https://carbd-server.onrender.com/reviews', {
       method: 'POST',
       headers: {
         'content-type': 'application/json',

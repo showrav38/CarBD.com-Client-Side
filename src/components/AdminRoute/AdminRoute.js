@@ -14,7 +14,7 @@ const AdminRoute = props => {
   useEffect(() => {
     if (user) {
       setIsLoading(true);
-      fetch(`http://localhost:5000/users/${user.email}`)
+      fetch(`https://carbd-server.onrender.com/users/${user.email}`)
         .then(res => res.json())
         .then(data => {
           localStorage.setItem('userDetails', JSON.stringify(data));

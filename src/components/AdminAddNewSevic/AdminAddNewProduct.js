@@ -22,7 +22,7 @@ const AdminAddNewProduct = () => {
         const mode = modeRef.current.value;
 
         const newService = { name, img, description, madeIn, milage, price, released, mode };
-        fetch('http://localhost:5000/services', {
+        fetch('https://carbd-server.onrender.com/services', {
             method: 'post',
             headers: {
                 'content-type': 'application/json'
