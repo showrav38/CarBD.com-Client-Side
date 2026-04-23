@@ -1,18 +1,39 @@
-# CarBd.Com
-### online car selling and servicing website
+# CarBd.Com - Car Ordering Platform
 
-Netlify live deploy link of project [Create React App] (https://carbdwebapp.netlify.app).
+A full-stack car ordering platform with role-based access for users and admins.
 
-## Project Name
+🔗 **Live Demo:** https://carbdwebapp.netlify.app
 
-Car Selling Website (CarBd.Com)
+## Features
 
-### Project Details
+**Users**
+- Browse and purchase cars
+- Register and login via email or Google (Firebase Auth)
+- View, manage and cancel orders from personal dashboard
+- Submit reviews
 
-- This is a online car selling related website project.
-- Here user can get all the latest exclusive car deo by online.
-- User can buy any car from this website without any hassle.
-- User can sign up and log in our site.
-- User can see his/her ordered pending & approved product, product details and can delete pending order after login. Moreover user can pay, give review by online.
-- Admin can manage all orders, delete orders, add new product services, make admin author, see all information of orders & buyers and update order status after login.
-- We worked on html, css, React, React bootstrap, fontawesome, routing, context api, private, firebase work for google login & email password Login/Signup,adminroute, react-star-rating, JWT by using verify token, firebase hosting , mongodb for database, nodejs for backend,.env file, heroku for server upload for this project.
+**Admin**
+- Add and remove car listings
+- Manage and approve orders
+- Promote users to admin role
+
+## Tech Stack
+
+**Frontend:** React · React Router · React Bootstrap · Tailwind CSS · Firebase Auth
+
+**Backend:** Node.js · Express.js · MongoDB · JWT Authentication
+
+**Deployment:** Netlify (frontend) · Render (backend) · MongoDB Atlas
+
+## Getting Started
+
+```bash
+# Clone the client
+git clone https://github.com/showrav38/CarBD.com-Client-Side
+
+# Install dependencies
+npm install --legacy-peer-deps
+
+# Start development server
+npm start
+```
